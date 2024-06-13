@@ -1,0 +1,22 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "description": "webcrawler app using node.js",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "dependencies": {
+    "jsdom": "^24.1.0"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "author": "jared_farr",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
